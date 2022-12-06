@@ -278,7 +278,7 @@
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="imageAvatar1" alignment="1" pref="75" max="32767" attributes="0"/>
+                              <Component id="imageAvatar1" alignment="1" pref="80" max="32767" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
@@ -773,15 +773,426 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="745" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="45" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btn101" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn102" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn103" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn104" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn105" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn106" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn107" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btn108" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn109" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn110" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn111" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn112" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn113" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn114" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btn201" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn202" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn203" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn204" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn205" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn206" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn207" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btn208" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn209" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn210" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn211" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn212" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn213" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn214" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btn301" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn302" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn303" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn304" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn305" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn306" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn307" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btn308" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn309" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn310" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn311" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn312" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn313" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btn314" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="702" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="37" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btn101" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn102" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn103" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn104" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn105" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn106" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn107" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btn108" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn109" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn110" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn111" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn112" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn113" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn114" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btn201" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn202" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn203" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn204" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn205" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn206" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn207" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btn208" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn209" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn210" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn211" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn212" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn213" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn214" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btn301" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn302" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn303" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn304" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn305" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn306" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn307" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btn308" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn309" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn310" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn311" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn312" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn313" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <Component id="btn314" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                     </DimensionLayout>
                   </Layout>
+                  <SubComponents>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn101">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="101"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn102">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="102"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn103">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="103"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn104">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="104"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn105">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="105"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn106">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="106"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn107">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="107"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn109">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="109"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn110">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="110"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn111">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="111"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn112">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="112"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn113">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="113"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn114">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="114"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn108">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="108"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn203">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="203"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn204">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="204"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn201">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="201"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn205">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="205"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn206">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="206"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn207">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="207"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn202">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="202"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn210">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="210"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn208">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="208"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn209">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="209"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn212">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="212"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn211">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="211"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn213">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="213"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn214">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="214"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn305">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="305"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn303">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="303"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn307">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="307"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn306">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="306"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn301">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="301"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn304">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="304"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn302">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="302"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn309">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="309"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn308">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="308"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn311">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="311"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn312">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="312"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn314">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="314"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn310">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="310"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.hotelmanage.utils.RoomButton" name="btn313">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="313"/>
+                        <Property name="radius" type="int" value="20"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="StaffJPanel">
                   <Properties>
@@ -986,7 +1397,7 @@
                               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jScrollPane1" alignment="0" min="-2" pref="710" max="-2" attributes="0"/>
-                                  <Component id="jPanel3" alignment="0" min="-2" pref="710" max="-2" attributes="0"/>
+                                  <Component id="jPanel3" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace pref="15" max="32767" attributes="0"/>
                           </Group>
@@ -1042,7 +1453,7 @@
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="32767" attributes="0"/>
+                                  <EmptySpace pref="8" max="32767" attributes="0"/>
                                   <Component id="txtSearch" min="-2" pref="591" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
                               </Group>
@@ -1653,7 +2064,7 @@
                     </Container>
                   </SubComponents>
                 </Container>
-                <Container class="javax.swing.JPanel" name="jPanel1">
+                <Container class="javax.swing.JPanel" name="StatisticalJPanel">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1670,19 +2081,18 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jScrollPane6" min="-2" pref="735" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane6" min="-2" pref="727" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="23" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace pref="102" max="32767" attributes="0"/>
-                              <Component id="jScrollPane6" min="-2" pref="516" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                              <EmptySpace pref="99" max="32767" attributes="0"/>
+                              <Component id="jScrollPane6" min="-2" pref="594" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
