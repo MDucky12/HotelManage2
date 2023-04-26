@@ -60,6 +60,48 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
         mainScreen1 = new com.hotelmanage.utils.MainScreen();
         tabs = new javax.swing.JTabbedPane();
         RoomJPanel = new javax.swing.JPanel();
+        btn101 = new com.hotelmanage.utils.RoomButton();
+        btn102 = new com.hotelmanage.utils.RoomButton();
+        btn103 = new com.hotelmanage.utils.RoomButton();
+        btn104 = new com.hotelmanage.utils.RoomButton();
+        btn105 = new com.hotelmanage.utils.RoomButton();
+        btn106 = new com.hotelmanage.utils.RoomButton();
+        btn107 = new com.hotelmanage.utils.RoomButton();
+        btn109 = new com.hotelmanage.utils.RoomButton();
+        btn110 = new com.hotelmanage.utils.RoomButton();
+        btn111 = new com.hotelmanage.utils.RoomButton();
+        btn112 = new com.hotelmanage.utils.RoomButton();
+        btn113 = new com.hotelmanage.utils.RoomButton();
+        btn114 = new com.hotelmanage.utils.RoomButton();
+        btn108 = new com.hotelmanage.utils.RoomButton();
+        btn203 = new com.hotelmanage.utils.RoomButton();
+        btn204 = new com.hotelmanage.utils.RoomButton();
+        btn201 = new com.hotelmanage.utils.RoomButton();
+        btn205 = new com.hotelmanage.utils.RoomButton();
+        btn206 = new com.hotelmanage.utils.RoomButton();
+        btn207 = new com.hotelmanage.utils.RoomButton();
+        btn202 = new com.hotelmanage.utils.RoomButton();
+        btn210 = new com.hotelmanage.utils.RoomButton();
+        btn208 = new com.hotelmanage.utils.RoomButton();
+        btn209 = new com.hotelmanage.utils.RoomButton();
+        btn212 = new com.hotelmanage.utils.RoomButton();
+        btn211 = new com.hotelmanage.utils.RoomButton();
+        btn213 = new com.hotelmanage.utils.RoomButton();
+        btn214 = new com.hotelmanage.utils.RoomButton();
+        btn305 = new com.hotelmanage.utils.RoomButton();
+        btn303 = new com.hotelmanage.utils.RoomButton();
+        btn307 = new com.hotelmanage.utils.RoomButton();
+        btn306 = new com.hotelmanage.utils.RoomButton();
+        btn301 = new com.hotelmanage.utils.RoomButton();
+        btn304 = new com.hotelmanage.utils.RoomButton();
+        btn302 = new com.hotelmanage.utils.RoomButton();
+        btn309 = new com.hotelmanage.utils.RoomButton();
+        btn308 = new com.hotelmanage.utils.RoomButton();
+        btn311 = new com.hotelmanage.utils.RoomButton();
+        btn312 = new com.hotelmanage.utils.RoomButton();
+        btn314 = new com.hotelmanage.utils.RoomButton();
+        btn310 = new com.hotelmanage.utils.RoomButton();
+        btn313 = new com.hotelmanage.utils.RoomButton();
         StaffJPanel = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
@@ -113,7 +155,7 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
         cbxStatus = new javax.swing.JComboBox<>();
         txtNote = new javax.swing.JTextField();
         btnAddCus = new javax.swing.JButton();
-        jPanel1 = new javax.swing.JPanel();
+        StatisticalJPanel = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
         jTable3 = new javax.swing.JTable();
         CustomerPanel = new javax.swing.JPanel();
@@ -251,7 +293,7 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlInfoStarfLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addGroup(pnlInfoStarfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(imageAvatar1, javax.swing.GroupLayout.DEFAULT_SIZE, 75, Short.MAX_VALUE)
+                    .addComponent(imageAvatar1, javax.swing.GroupLayout.DEFAULT_SIZE, 80, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, pnlInfoStarfLayout.createSequentialGroup()
                         .addComponent(jLabel12)
                         .addGap(0, 0, 0)
@@ -534,15 +576,283 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
 
         RoomJPanel.setBackground(new java.awt.Color(255, 255, 255));
 
+        btn101.setText("101");
+        btn101.setRadius(20);
+
+        btn102.setText("102");
+        btn102.setRadius(20);
+
+        btn103.setText("103");
+        btn103.setRadius(20);
+
+        btn104.setText("104");
+        btn104.setRadius(20);
+
+        btn105.setText("105");
+        btn105.setRadius(20);
+
+        btn106.setText("106");
+        btn106.setRadius(20);
+
+        btn107.setText("107");
+        btn107.setRadius(20);
+
+        btn109.setText("109");
+        btn109.setRadius(20);
+
+        btn110.setText("110");
+        btn110.setRadius(20);
+
+        btn111.setText("111");
+        btn111.setRadius(20);
+
+        btn112.setText("112");
+        btn112.setRadius(20);
+
+        btn113.setText("113");
+        btn113.setRadius(20);
+
+        btn114.setText("114");
+        btn114.setRadius(20);
+
+        btn108.setText("108");
+        btn108.setRadius(20);
+
+        btn203.setText("203");
+        btn203.setRadius(20);
+
+        btn204.setText("204");
+        btn204.setRadius(20);
+
+        btn201.setText("201");
+        btn201.setRadius(20);
+
+        btn205.setText("205");
+        btn205.setRadius(20);
+
+        btn206.setText("206");
+        btn206.setRadius(20);
+
+        btn207.setText("207");
+        btn207.setRadius(20);
+
+        btn202.setText("202");
+        btn202.setRadius(20);
+
+        btn210.setText("210");
+        btn210.setRadius(20);
+
+        btn208.setText("208");
+        btn208.setRadius(20);
+
+        btn209.setText("209");
+        btn209.setRadius(20);
+
+        btn212.setText("212");
+        btn212.setRadius(20);
+
+        btn211.setText("211");
+        btn211.setRadius(20);
+
+        btn213.setText("213");
+        btn213.setRadius(20);
+
+        btn214.setText("214");
+        btn214.setRadius(20);
+
+        btn305.setText("305");
+        btn305.setRadius(20);
+
+        btn303.setText("303");
+        btn303.setRadius(20);
+
+        btn307.setText("307");
+        btn307.setRadius(20);
+
+        btn306.setText("306");
+        btn306.setRadius(20);
+
+        btn301.setText("301");
+        btn301.setRadius(20);
+
+        btn304.setText("304");
+        btn304.setRadius(20);
+
+        btn302.setText("302");
+        btn302.setRadius(20);
+
+        btn309.setText("309");
+        btn309.setRadius(20);
+
+        btn308.setText("308");
+        btn308.setRadius(20);
+
+        btn311.setText("311");
+        btn311.setRadius(20);
+
+        btn312.setText("312");
+        btn312.setRadius(20);
+
+        btn314.setText("314");
+        btn314.setRadius(20);
+
+        btn310.setText("310");
+        btn310.setRadius(20);
+
+        btn313.setText("313");
+        btn313.setRadius(20);
+
         javax.swing.GroupLayout RoomJPanelLayout = new javax.swing.GroupLayout(RoomJPanel);
         RoomJPanel.setLayout(RoomJPanelLayout);
         RoomJPanelLayout.setHorizontalGroup(
             RoomJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 745, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RoomJPanelLayout.createSequentialGroup()
+                .addContainerGap(45, Short.MAX_VALUE)
+                .addGroup(RoomJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(RoomJPanelLayout.createSequentialGroup()
+                        .addComponent(btn101, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn102, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn103, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn104, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn105, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn106, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn107, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(RoomJPanelLayout.createSequentialGroup()
+                        .addComponent(btn108, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn109, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn110, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn111, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn112, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn113, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn114, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(RoomJPanelLayout.createSequentialGroup()
+                        .addComponent(btn201, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn202, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn203, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn204, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn205, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn206, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn207, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(RoomJPanelLayout.createSequentialGroup()
+                        .addComponent(btn208, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn209, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn210, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn211, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn212, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn213, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn214, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(RoomJPanelLayout.createSequentialGroup()
+                        .addComponent(btn301, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn302, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn303, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn304, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn305, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn306, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn307, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(RoomJPanelLayout.createSequentialGroup()
+                        .addComponent(btn308, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn309, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn310, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn311, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn312, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn313, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn314, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(39, 39, 39))
         );
         RoomJPanelLayout.setVerticalGroup(
             RoomJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 702, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RoomJPanelLayout.createSequentialGroup()
+                .addContainerGap(37, Short.MAX_VALUE)
+                .addGroup(RoomJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btn101, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn102, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn103, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn104, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn105, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn106, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn107, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(RoomJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btn108, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn109, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn110, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn111, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn112, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn113, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn114, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(RoomJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btn201, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn202, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn203, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn204, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn205, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn206, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn207, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(RoomJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btn208, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn209, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn210, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn211, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn212, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn213, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn214, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(RoomJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btn301, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn302, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn303, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn304, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn305, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn306, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn307, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(RoomJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btn308, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn309, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn310, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn311, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn312, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn313, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn314, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(38, 38, 38))
         );
 
         tabs.addTab("tab4", RoomJPanel);
@@ -665,7 +975,7 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(8, Short.MAX_VALUE)
                 .addComponent(txtSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 591, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(101, 101, 101))
         );
@@ -685,7 +995,7 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
                 .addGap(20, 20, 20)
                 .addGroup(ListStaffJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 710, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 710, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(15, Short.MAX_VALUE))
         );
         ListStaffJPanelLayout.setVerticalGroup(
@@ -1035,7 +1345,7 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
 
         tabs.addTab("tab4", BookRoomJPanel);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        StatisticalJPanel.setBackground(new java.awt.Color(255, 255, 255));
 
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1050,24 +1360,23 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
         ));
         jScrollPane6.setViewportView(jTable3);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 735, javax.swing.GroupLayout.PREFERRED_SIZE)
+        javax.swing.GroupLayout StatisticalJPanelLayout = new javax.swing.GroupLayout(StatisticalJPanel);
+        StatisticalJPanel.setLayout(StatisticalJPanelLayout);
+        StatisticalJPanelLayout.setHorizontalGroup(
+            StatisticalJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(StatisticalJPanelLayout.createSequentialGroup()
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 727, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 23, Short.MAX_VALUE))
+        );
+        StatisticalJPanelLayout.setVerticalGroup(
+            StatisticalJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, StatisticalJPanelLayout.createSequentialGroup()
+                .addContainerGap(99, Short.MAX_VALUE)
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 594, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(102, Short.MAX_VALUE)
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 516, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(81, 81, 81))
-        );
 
-        tabs.addTab("tab5", jPanel1);
+        tabs.addTab("tab5", StatisticalJPanel);
 
         CustomerPanel.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -1339,10 +1648,6 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btn303ActionPerformed
 
-    private void btn105ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn105ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn105ActionPerformed
-
     private void btn305ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn305ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btn305ActionPerformed
@@ -1448,6 +1753,10 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
         tabs.setSelectedIndex(4);
     }//GEN-LAST:event_pnlCustomerMouseClicked
 
+    private void btn105ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_roomButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_roomButton5ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1489,6 +1798,49 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
     private javax.swing.JPanel ListStaffJPanel;
     private javax.swing.JPanel RoomJPanel;
     private javax.swing.JPanel StaffJPanel;
+    private javax.swing.JPanel StatisticalJPanel;
+    private com.hotelmanage.utils.RoomButton btn101;
+    private com.hotelmanage.utils.RoomButton btn102;
+    private com.hotelmanage.utils.RoomButton btn103;
+    private com.hotelmanage.utils.RoomButton btn104;
+    private com.hotelmanage.utils.RoomButton btn105;
+    private com.hotelmanage.utils.RoomButton btn106;
+    private com.hotelmanage.utils.RoomButton btn107;
+    private com.hotelmanage.utils.RoomButton btn108;
+    private com.hotelmanage.utils.RoomButton btn109;
+    private com.hotelmanage.utils.RoomButton btn110;
+    private com.hotelmanage.utils.RoomButton btn111;
+    private com.hotelmanage.utils.RoomButton btn112;
+    private com.hotelmanage.utils.RoomButton btn113;
+    private com.hotelmanage.utils.RoomButton btn114;
+    private com.hotelmanage.utils.RoomButton btn201;
+    private com.hotelmanage.utils.RoomButton btn202;
+    private com.hotelmanage.utils.RoomButton btn203;
+    private com.hotelmanage.utils.RoomButton btn204;
+    private com.hotelmanage.utils.RoomButton btn205;
+    private com.hotelmanage.utils.RoomButton btn206;
+    private com.hotelmanage.utils.RoomButton btn207;
+    private com.hotelmanage.utils.RoomButton btn208;
+    private com.hotelmanage.utils.RoomButton btn209;
+    private com.hotelmanage.utils.RoomButton btn210;
+    private com.hotelmanage.utils.RoomButton btn211;
+    private com.hotelmanage.utils.RoomButton btn212;
+    private com.hotelmanage.utils.RoomButton btn213;
+    private com.hotelmanage.utils.RoomButton btn214;
+    private com.hotelmanage.utils.RoomButton btn301;
+    private com.hotelmanage.utils.RoomButton btn302;
+    private com.hotelmanage.utils.RoomButton btn303;
+    private com.hotelmanage.utils.RoomButton btn304;
+    private com.hotelmanage.utils.RoomButton btn305;
+    private com.hotelmanage.utils.RoomButton btn306;
+    private com.hotelmanage.utils.RoomButton btn307;
+    private com.hotelmanage.utils.RoomButton btn308;
+    private com.hotelmanage.utils.RoomButton btn309;
+    private com.hotelmanage.utils.RoomButton btn310;
+    private com.hotelmanage.utils.RoomButton btn311;
+    private com.hotelmanage.utils.RoomButton btn312;
+    private com.hotelmanage.utils.RoomButton btn313;
+    private com.hotelmanage.utils.RoomButton btn314;
     private javax.swing.JButton btnAddCus;
     private javax.swing.JButton btnCheckIn;
     private javax.swing.JButton btnCheckOut;
@@ -1536,7 +1888,6 @@ public class HotelManagerMainDialog extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;

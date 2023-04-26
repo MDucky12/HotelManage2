@@ -1,4 +1,4 @@
-CREATE DATABASE Hotel
+    CREATE DATABASE Hotel
 GO
 
 USE Hotel
@@ -40,14 +40,7 @@ CREATE TABLE tb_TypeRoom
 )
 GO
 
-/* to know equipment in the hotel */
-CREATE TABLE tb_Equipment
-(
-    IDEquip NVARCHAR(10) PRIMARY KEY NOT NULL,
-    Name NVARCHAR(50),
-    Price FLOAT
-)
-GO
+
 
 /* went customer buy some food or water */
 CREATE TABLE tb_FBService
@@ -89,6 +82,17 @@ CREATE TABLE tb_Room
 )
 GO
 
+/* to know equipment in the hotel */
+CREATE TABLE tb_Equipment
+(
+    IDEquip NVARCHAR(10) PRIMARY KEY NOT NULL,
+    Name NVARCHAR(50),
+    Price FLOAT,
+    IDBr NVARCHAR(10) FOREIGN KEY REFERENCES tb_Branch(IDBr),
+    IDRoom int FOREIGN KEY REFERENCES tb_Room(IDRoom)
+)
+GO
+
 /* table to know who use this app */
 CREATE TABLE tb_User
 (
@@ -116,12 +120,3 @@ CREATE TABLE tb_BookRoom
 )
 GO
 
-/* Show how many equipment in that room*/
-CREATE TABLE tb_Room_Equipment
-(
-    IDRoom INT,
-    IDEquip INT,
-    Num int,
-    PRIMARY KEY(IDRoom,IDEquip)
-)
-GO
